@@ -1,0 +1,13 @@
+## 1. Sales by Match ##
+# https://www.hackerrank.com/challenges/sock-merchant/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup
+def sockMerchant(n, ar):
+    matched = {}
+    matching_pair = 0
+
+    for i in ar:
+        if i in matched:
+            matched.pop(i)
+            matching_pair += 1
+        else:
+            matched[i] = True
+    return matching_pair
