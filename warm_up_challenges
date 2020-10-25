@@ -1,5 +1,6 @@
 ## 1. Sales by Match ##
 # https://www.hackerrank.com/challenges/sock-merchant/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup
+# Difficulty: Easy
 def sockMerchant(n, ar):
     matched = {}
     matching_pair = 0
@@ -11,3 +12,19 @@ def sockMerchant(n, ar):
         else:
             matched[i] = True
     return matching_pair
+    
+    
+## 2. Counting Valleys ##
+# https://www.hackerrank.com/challenges/counting-valleys/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup
+# Difficulty: Easy
+def countingValleys(steps, path):
+    step_counter = 0
+    valley = 0
+    for i in path:
+        if i == 'U':
+            step_counter += 1
+        else:
+            step_counter -= 1
+            if step_counter == -1:
+                valley += 1
+    return valley
