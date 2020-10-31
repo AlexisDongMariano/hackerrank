@@ -2,7 +2,7 @@
 #         Information
 # ==============================
 
-# Title: 01 - Lists
+# Title: 05 - Lists
 # Link: https://www.hackerrank.com/challenges/python-lists/problem
 # Difficulty: Easy
 # Max Score: 10
