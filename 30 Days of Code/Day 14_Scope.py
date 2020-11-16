@@ -34,3 +34,12 @@ d = Difference(a)
 d.computeDifference()
 
 print(d.maximumDifference)
+
+
+# ==============================
+#           Tip
+# ==============================
+
+# We can also get the maximum value from the list and the minimum value
+# subtract them, thus we can get the maximum difference between all the
+# elements. This way, we can avoid the Big O(n^2) or factorial time
