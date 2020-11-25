@@ -2,7 +2,7 @@
 #         Information
 # ==============================
 
-# Title: 13 - The Minion Game
+# Title: 14 - Merge the Tools!
 # Link: https://www.hackerrank.com/challenges/merge-the-tools/problem
 # Difficulty: Medium
 # Max Score: 40
