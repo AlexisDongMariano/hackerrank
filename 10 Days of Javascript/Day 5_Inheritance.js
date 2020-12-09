@@ -2,7 +2,7 @@
 //         Information
 // ==============================
 
-// Title: Day 8: Dictionaries and Maps
+// Title: Day 5: Inheritance
 // Link: https://www.hackerrank.com/challenges/js10-inheritance/problem
 // Difficulty: Easy
 // Max Score: 15
