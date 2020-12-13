@@ -20,13 +20,9 @@ shoe_sizes = int(input())
 sizes = Counter(list(map(int, (input()).split(' '))))
 no_of_customers = int(input())
 
-orders = []
-for i in range(no_of_customers):
-    # order is key value pair where first item is the order size and the amount as second
-    orders.append(tuple(map(int, (input()).split(' '))))
-
 total = 0
-for order in orders:
+for i in range(no_of_customers):
+    order = list(map(int, (input()).split(' ')))
     if order[0] in list(sizes.keys()):
         order_size = order[0]
         if sizes[order_size] > 0:
